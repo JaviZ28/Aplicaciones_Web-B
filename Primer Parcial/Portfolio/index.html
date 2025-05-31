@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/additional-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="photo">
+        <img src="img/foto.jpg" alt="Foto mía">
+      </div>
+      <div class="info">
+        <h2>Javier Zamora</h2>
+        <p>Est. Ingeniería de Software</p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li onclick="mostrar('inicio')"><i class="fas fa-home"></i> Inicio</li>
+          <li onclick="mostrar('proyectos')"><i class="fas fa-code"></i> Mis Proyectos</li>
+          <li onclick="mostrar('estudios')"><i class="fas fa-graduation-cap"></i> Mis Estudios</li>
+          <li onclick="mostrar('cualidades')"><i class="fas fa-star"></i> Mis Cualidades</li>
+        </ul>
+      </nav>
+      <div class="social-links">
+        <a href="https://github.com/" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </aside>
+    <main class="contenido" id="contenido">
+      <h1>¡Bienvenido a mi portfolio!</h1>
+      <p>Soy un estudiante de Ingeniería de Software en la ULEAM</p>
+      
+      <div class="home-highlight">
+        <div class="highlight-item">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Programador</h3>
+          <p>Creación, modificación y mantenimiento de software, aplicaciones y sistemas informáticos utilizando lenguajes de programación específicos.</p>
+        </div>
+        <div class="highlight-item">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Diseño Web</h3>
+          <p>Actualmente estoy aprendiendo sobre aplicaciones web y su diseño.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
