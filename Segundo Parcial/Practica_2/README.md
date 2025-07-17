@@ -23,9 +23,8 @@ cd supabase-crud-app
 \`\`\`
 
 2. **Instalar dependencias**
-\`\`\`bash
-npm install
-\`\`\`
+\`\`\`bashgit status
+
 
 3. **Configurar Supabase**
    - Crear proyecto en [Supabase](https://supabase.com)
