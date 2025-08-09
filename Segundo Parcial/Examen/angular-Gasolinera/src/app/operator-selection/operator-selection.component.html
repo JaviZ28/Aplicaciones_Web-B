@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="header">
+    <button class="back-button">←</button>
+    <h2>Nueva venta</h2>
+  </div>
+
+  <div class="selection-section">
+    <h3>Selecciona el operador</h3>
+
+    <div class="operator-list">
+      <div
+        *ngFor="let operator of operators$ | async"
+        class="operator-card"
+        (click)="selectOperator(operator)">
+
+        <img [src]="operator.photoUrl" [alt]="operator.name" class="operator-photo">
+        <span>{{ operator.name }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button class="nav-button" disabled>Siguiente</button>
+  </div>
+</div>

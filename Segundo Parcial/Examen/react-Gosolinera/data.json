@@ -1,0 +1,31 @@
+{
+  "operators": [
+    { "id": 1, "name": "Carlos Ramírez", "photoUrl": "https://example.com/carlos.jpg" }
+  ],
+  "pumps": [
+    { "id": 1, "name": "Surtidor 1" },
+    { "id": 2, "name": "Surtidor 2" },
+    { "id": 3, "name": "Surtidor 3" }
+  ],
+  "gasolineTypes": [
+    { "id": 1, "name": "Premium", "pricePerLiter": 25.5 },
+    { "id": 2, "name": "Magna", "pricePerLiter": 22.8 },
+    { "id": 3, "name": "Diesel", "pricePerLiter": 24.0 }
+  ],
+  "customers": [
+    { "id": 1, "name": "Juan Pérez", "vehicleType": "Sedán", "plateNumber": "ABC-123" }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "operatorId": 1,
+      "pumpId": 1,
+      "gasolineTypeId": 2,
+      "liters": 40,
+      "totalCost": 912,
+      "customerId": 1,
+      "paymentMethod": "Tarjeta",
+      "date": "2025-08-08T10:30:00Z"
+    }
+  ]
+}

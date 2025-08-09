@@ -1,0 +1,17 @@
+{
+  "operators": [
+    { "id": 1, "name": "Carlos Romero", "photoUrl": "assets/carlos.jpg" },
+    { "id": 2, "name": "Ana Pérez", "photoUrl": "assets/ana.jpg" }
+  ],
+  "pumps": [
+    { "id": 1, "name": "Surtidor 1" },
+    { "id": 2, "name": "Surtidor 2" },
+    { "id": 3, "name": "Surtidor 3" }
+  ],
+  "gasolineTypes": [
+    { "id": 1, "name": "Premium", "pricePerLiter": 25.5 },
+    { "id": 2, "name": "Magna", "pricePerLiter": 22.3 },
+    { "id": 3, "name": "Diesel", "pricePerLiter": 24.0 }
+  ],
+  "sales": []
+}
